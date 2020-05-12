@@ -1,0 +1,6 @@
+USE Menu;
+GO
+
+SELECT *
+FROM dbo.Recipe
+WHERE RecipeID BETWEEN 100 AND 20000

@@ -1,0 +1,1 @@
+EXEC sp_procoption 'CreatePersistentTable', 'startup', 'true'

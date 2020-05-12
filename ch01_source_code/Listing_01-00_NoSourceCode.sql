@@ -1,0 +1,3 @@
+-- There is no source code for this chapter
+-- If you would like to get familiar with data types
+-- Restore the Menu.bak database to a system running SQL Server 2019

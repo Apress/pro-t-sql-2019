@@ -1,0 +1,38 @@
+USE master;
+GO
+
+ALTER DATABASE Menu
+ADD FILE
+(
+	NAME = RecipeHistFG2018,
+	FILENAME = 'D:\SQLData\RecipeHistFG2018.ndf',
+	SIZE = 50MB
+)
+TO FILEGROUP RecipeHistory2018;
+
+ALTER DATABASE Menu
+ADD FILE
+(
+	NAME = RecipeHistFG2019Q1,
+	FILENAME = 'D:\SQLData\RecipeHistFG2019Q1.ndf',
+	SIZE = 50MB
+)
+TO FILEGROUP RecipeHistory2019Q1;
+
+ALTER DATABASE Menu
+ADD FILE
+(
+	NAME = RecipeHistFG2019Q2,
+	FILENAME = 'D:\SQLData\RecipeHistFG2019Q2.ndf',
+	SIZE = 50MB
+)
+TO FILEGROUP RecipeHistory2019Q2;
+
+ALTER DATABASE Menu
+ADD FILE
+(
+	NAME = RecipeHistFG2019Q3,
+	FILENAME = 'D:\SQLData\RecipeHistFG2019Q3.ndf',
+	SIZE = 50MB
+)
+TO FILEGROUP RecipeHistory2019Q3;

@@ -1,0 +1,6 @@
+USE Menu;
+GO
+
+ALTER TABLE dbo.Recipe
+ADD IsActive BIT
+CONSTRAINT DF_Recipe_IsActive DEFAULT '1' NOT NULL;

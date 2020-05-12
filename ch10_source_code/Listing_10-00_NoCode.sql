@@ -1,0 +1,2 @@
+-- There is no T-SQL code for this chapter
+-- The included zip file is a copy of a Github repo
